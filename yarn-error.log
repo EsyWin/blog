@@ -1,0 +1,32 @@
+Arguments: 
+  /home/dev/.nvm/versions/node/v17.8.0/bin/node /usr/bin/yarn add react react-dom next
+
+PATH: 
+  /home/dev/.nvm/versions/node/v17.8.0/bin:/home/dev/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  17.8.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: read ENETUNREACH
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+
+npm manifest: 
+  {
+    "name": "blog",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
