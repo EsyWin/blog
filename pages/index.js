@@ -1,5 +1,4 @@
 import React from "react";
-import "./slug.scss";
 
 import "./";
 function Homepage(props) {
