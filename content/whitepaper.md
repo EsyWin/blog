@@ -52,7 +52,7 @@ DAO    : 50%
 ---
 Dev 1  : 10%
 Dev 2  : 10%
-Artist : 10% (or airdrops)
+Artist : 10% (or airdrops) // he's missing
 CM 1   : 10%
 CM 2   : 10%
 
@@ -64,11 +64,10 @@ DAO : 5%
 ---
 Dev 1  : 1%
 Dev 2  : 1%
-Artist : 1% (or airdrops)
+Artist : 1% (or airdrops) // he's missing
 CM 1   : 1%
 CM 2   : 1%
 
-Our Artist is missing since several months, we suspect something bad happened to him : if we don't have any News, his cut will be redistributed to Phillipino Community (his nationality) through airdrops.
 ```
 
 I believe this approach realistic, simple and fair.
