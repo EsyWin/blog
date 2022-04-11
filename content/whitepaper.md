@@ -19,14 +19,6 @@ Income from Projects to be built, will be split evenly between the DAO Vault and
 The main idea is to use our own products, in a way that rewards our Squad, instead of shadowy unknown devs and VC, then expand ourselves according to Squad will.
 
 ## 1. Introduction
-### 1.1 ze Dev
-Before crypto, I was a hopeless hardcore gamer stuck into virtual realities but helped me found my existential nature : "**born to h4ck**" 🏴‍☠️🛠️
-
-I'm a believer, and because God watches me closer than the FBI, I'm very unlikely to ever have a viable justification for hurting innocent people and likely get caught if trying; which is why **bug bounties** and **hackathons** offers real opportunity to practice such skills under regulated conditions without risking jail, and rather being praised for fixing issues.
-
-I got my revelation abusing a complete tipbot ecosystem, but faithfully told the devs and got paid $300 to fix that : **breakthrough**
-
-### 1.2 ze DAO
 I've personnally took the ride of cryptographic assets in 2020, during lockdowns.
 
 Feeling late, I've felt the urge to scrap as much data as I possibly could, resulting in a discord server full of my notes on different ecosystems, and a Squad of **freedom** and **self-sovereign** minded people 🏴‍☠️
