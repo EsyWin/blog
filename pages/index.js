@@ -2,7 +2,7 @@ import React from "react";
 
 import "./";
 function Homepage(props) {
-  return <h1>Welcome to the blog: {props.blogTitle}!</h1>;
+  return <h1>Welcome to my blog !</h1>;
 }
 
 Homepage.getInitialProps = () => {
