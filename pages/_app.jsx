@@ -9,7 +9,7 @@ import '../styles.scss';
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
   return (
-    <div data-theme="corporate" className="w-screen h-screen">
+    <div data-theme="corporate" className="w-full">
       <AppBar />
       <div className="container flex justify-center align-center">
         <TypedTitle />
