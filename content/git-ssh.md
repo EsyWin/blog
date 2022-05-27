@@ -1,62 +1,67 @@
 # How to git over SSH
+
 [`git`](https://git-scm.com/) is Free Open Source Software - *FOSS*, and is unavoiable [version control tool](https://www.atlassian.com/git/tutorials/what-is-version-control) used in corporate software industry and other related fields. It was created by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) author of the [Linux Kernel](https://en.wikipedia.org/wiki/Linux), 
 
 ## Basic Assumptions :
+
 I assume you're running a `linux kernel` which embed `git`.
 
 This can be either [WSL](https://docs.microsoft.com/en-us/windows/wsl/) on Windows, or any [linux distribution](https://distrowatch.com/dwres.php?resource=major).
 
-On [Mac OSX](), you'll need to run the following to install `git` :
+On [Mac OSX](), you install `git` by typing the following :
 
-```shell
+```bash
 brew install git
 ```
 
 ## Generate SSH Key
-[Github Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) gives us the command :
 
-```shell
+From the [Github Documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) :
+
+```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
 # if you system does not support ed25519
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
-By default, your key is located in your `$HOME` folder `/home/$USER/`until you specify otherwise when prompted so.
+By default, if you leave your key unnamed, it will be located at `~/.ssh/id_ed25519`.
+
+If you named your key, it will be located in your `$HOME` folder `/home/$USER/` by default, except if you specified path.
+
+You can still `ls ~/`, find your private and public key and `mv id_ed25519 id_ed25519.pub ~/.ssh` to place it where it should.
 
 ## Adding your SSH Key to ssh-agent
-You'll need to re-enter these for each new terminal session :
 
-```shell
+Enter these commands to test your SSH way into Github :
+
+```bash
 # start the ssh-agent in the background
 eval "$(ssh-agent -s)"
 # add your key
 ssh-add ~/.ssh/[key_name]
-# try ssh into github
+# ssh testing into github
 ssh -T git@github.com
 ```
 
 If everything went well, you should see the following line in your terminal :
+
 ```shell
 Hi [Github Username]! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
 Now, head to [Github Settings](https://github.com/settings/keys), click `New SSH Key` and paste in the result of `cat ~/.ssh/[key_name].pub` !
 
-By default your key is located in `/home/$USER` folder, so you might have to either specify path properly wherever is your key, or move your key in `~/.ssh`
+Do not mistake `id_ed25519` with `id_ed25519.pub` !!! (or whatever your key name)
 
-```shell
-# move keys in ~/.ssh
-mv [key_name] [key_name].pub ~/.ssh
-# alternatively, you can specify path to ssh-agent
-ssh-add /path/to/[key_name]
-```
+The first is your private key, and the second is your public key !
 
-## Troubleshooting
-### My local files are broken
-If you mess with you local files, and want to revert them into your last commit, you can run either `git reset --hard`  to reset to  `HEAD` or   `git checkout -- .` as you prefer : I personally use the first one. 
+## You're done !
 
-### SSH permission denied
-If you get `permission denied` you need to start `eval "$(ssh-agent -s)"` and `ssh-add /path/to/key` at each new terminal session.
+That's it !
+
+Now you can `git@github.com:[user]/[repo].git` without using old deprecated method with access tokens !
+
 ## Security Note
+
 Securing your workstation is out of the scope of this article, but if you get compromised : strict permission control can limit attackable surface is case of account takeover. Make sure to do your homeworks !
 
