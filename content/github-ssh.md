@@ -5,7 +5,7 @@ date: "2022-05-27"
 
 [`Git`](https://git-scm.com/) is Free Open Source Software - *FOSS*, and unavoiable [version control tool](https://www.atlassian.com/git/tutorials/what-is-version-control) in corporate software industry and other related fields. It was created by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) author of the [Linux Kernel](https://en.wikipedia.org/wiki/Linux) in [2005](https://fr.wikipedia.org/wiki/Git).
 
-[Github](https://github.com) is now [owned by Microsoft](https://news.microsoft.com/announcement/microsoft-acquires-github/) while the original Team now build and maintain [Gitlab](https://gitlab.com).
+[Github](https://github.com) is [owned by Microsoft](https://news.microsoft.com/announcement/microsoft-acquires-github/) while the original Team now build and maintain [Gitlab](https://gitlab.com). Both these solutions uses `git` !
 
 Until recently, you would've been able to use Github with Access Token, but this method has been proven to be weak, especially because of developpers committing and pushing their code to remote public repository with their Access Token inside, and because of Application 
 
