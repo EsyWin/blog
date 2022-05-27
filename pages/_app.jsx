@@ -10,13 +10,15 @@ import "../styles.scss";
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
   return (
-    <div data-theme="corporate" className="w-full">
+    <main data-theme="corporate" className="w-full flex flex-col min-h-screen">
       <AppBar />
       <div className="container flex justify-center align-center">
         <TypedTitle />
       </div>
-      <Component {...pageProps} />
+      <div className="flex-grow">
+        <Component {...pageProps} />
+      </div>
       <Footer />
-    </div>
+    </main>
   );
 }
