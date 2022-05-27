@@ -1,18 +1,16 @@
 # How to git over SSH
-`git` is by far the most used [version control tool](https://www.atlassian.com/git/tutorials/what-is-version-control) in the world, was created by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) creator of [Linux](https://en.wikipedia.org/wiki/Linux), and you can't really avoid to use `git` in almost any field related to technology.
+[`git`](https://git-scm.com/) is Free Open Source Software - *FOSS*, and is unavoiable [version control tool](https://www.atlassian.com/git/tutorials/what-is-version-control) used in corporate software industry and other related fields. It was created by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) author of the [Linux Kernel](https://en.wikipedia.org/wiki/Linux), 
 
 ## Basic Assumptions :
 I assume you're running a `linux kernel` which embed `git`.
-This can be either [WSL](https://docs.microsoft.com/en-us/windows/wsl/), your favorite [linux distro](https://distrowatch.com/dwres.php?resource=major).
+
+This can be either [WSL](https://docs.microsoft.com/en-us/windows/wsl/) on Windows, or any [linux distribution](https://distrowatch.com/dwres.php?resource=major).
 
 On [Mac OSX](), you'll need to run the following to install `git` :
 
 ```shell
 brew install git
 ```
-
-
-I'm using [Arch](https://archlinux.org/)  but the process remains the same for any distro.
 
 ## Generate SSH Key
 [Github Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) gives us the command :
