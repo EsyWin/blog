@@ -1,6 +1,6 @@
-import React from 'react';
-import * as matter from 'gray-matter';
-import ReactMarkdown from 'react-markdown';
+import React from "react";
+import * as matter from "gray-matter";
+import ReactMarkdown from "react-markdown";
 
 function PostTemplate({ content, data }) {
   // This holds the data between `---` from the .md file
@@ -8,9 +8,13 @@ function PostTemplate({ content, data }) {
 
   return (
     <article className="flex flex-col justify-center items-center pt-2 w-screen lg:max-w-3xl">
-      <h1 className='prose lg:prose-xl dark:prose-invert'>{frontmatter.title}</h1>
+      <h1 className="prose lg:prose-xl dark:prose-invert">
+        {frontmatter.title}
+      </h1>
       <div classNale="divider"></div>
-      <ReactMarkdown className="markdown-content prose dark:prose-invert w-screen lg:max-w-3xl">{content}</ReactMarkdown>
+      <ReactMarkdown className="markdown-content prose dark:prose-invert w-screen lg:max-w-3xl">
+        {content}
+      </ReactMarkdown>
     </article>
   );
 }

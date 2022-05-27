@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import AppBar from '../components/AppBar';
-import TypedTitle from '../components/TypedTitle';
+import AppBar from "../components/AppBar";
+import TypedTitle from "../components/TypedTitle";
+import Footer from "../components/Footer";
 
-import '../styles/global.css';
-import '../styles.scss';
+import "../styles/global.css";
+import "../styles.scss";
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
@@ -15,6 +16,7 @@ export default function MyApp({ Component, pageProps }) {
         <TypedTitle />
       </div>
       <Component {...pageProps} />
+      <Footer />
     </div>
   );
 }
