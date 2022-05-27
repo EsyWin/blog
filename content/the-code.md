@@ -1,9 +1,7 @@
 ---
-title: "zkpz"
+title: "The Code"
 date: "2022-04-01"
 ---
-
-# The Code
 
 Inspired from [Chainlink Hackathon Rules](https://docs.chain.link/docs/hackathon-rules-waiver-release-and-code-of-conduct/).
 

@@ -7,10 +7,10 @@ function PostTemplate({ content, data }) {
   const frontmatter = data;
 
   return (
-    <article className="flex flex-col justify-center items-center pt-2">
+    <article className="flex flex-col justify-center items-center pt-2 w-screen lg:max-w-3xl">
       <h1 className='prose lg:prose-xl dark:prose-invert'>{frontmatter.title}</h1>
       <div classNale="divider"></div>
-      <ReactMarkdown className="markdown-content prose dark:prose-invert">{content}</ReactMarkdown>
+      <ReactMarkdown className="markdown-content prose dark:prose-invert w-screen lg:max-w-3xl">{content}</ReactMarkdown>
     </article>
   );
 }
