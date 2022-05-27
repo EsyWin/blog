@@ -1,6 +1,9 @@
-# krk.finance
-## Whitepaper Version 0.0.1
-**Radically Decentralized Cybernetic Squad of Machines and People**
+---
+title: "Whitepaper Version 0.0.1"
+date: "2022-04-11"
+---
+
+## Radically Decentralized Cybernetic Squad of Machines and People
 
 Never shall this document be assimilated to a product description, a marketing proposal or a financial advice for investment.
 

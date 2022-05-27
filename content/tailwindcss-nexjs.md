@@ -1,4 +1,7 @@
-# Tailwindcss NextJS
+---
+title: "Tailwindcss NextJS"
+date: "2022-05-26"
+---
 
 ## Install
 
