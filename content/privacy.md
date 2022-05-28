@@ -86,7 +86,7 @@ Most Search Engines log everything you type in, [including DuckDuckGo](https://w
 
 Among privacy respectful Search Engines left :
 
-- [Presearch](https://account.presearch.com/signup?rid=3948765) [affiliate link] - pays you crypto for searching, while full-nodes route queries
+- [Presearch](https://account.presearch.com/signup?rid=3948765) [affiliate link] - pays you crypto to search, full-nodes route queries
 - [StartPage](https://www.startpage.com/) - google results with anonimity layer
 - [Qwant](https://www.qwant.com/)
 
