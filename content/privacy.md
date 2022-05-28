@@ -77,7 +77,9 @@ DNS shares same issues than VPN : you must trust them to not log what you're doi
 
 Best solution is to build your own :)
 
-## Browsers and Fingerprints
+## Browser, Cookies, Fingerprint
+
+### Browser
 
 When it comes to privacy browsers, choices aren't unlimited :
 
@@ -86,11 +88,21 @@ When it comes to privacy browsers, choices aren't unlimited :
 - IceWeasel : [Debian's fork of Firefox](https://wiki.debian.org/fr/Iceweasel) [lets you tweak your user-agent](https://www.geticeweasel.org/) ;)
 - TOR
 
-Okay, but what are Fingerprints ?
+### Cookies
+
+Cookies are small text files that websites stores on your machine, often filled with information like user-agent, session, etc..
+
+Keeping cookies lets websites easily know which websites you visited, simply by reading your cookies.
+
+More on that [here](https://www.makeuseof.com/a-beginners-guide-to-cookies/)
+
+### Fingerprint
 
 It's a combination of your user-agent (Browser, Version, Operating System), your language preferences, your timezone !
 
 You can test your uniqueness on [https://amiunique.org/](https://amiunique.org/), the goal being of cours to be common as possible :)
+
+As you might guess : don't mix your everyday device with mission critical hardware !
 
 ## Encrypt your data
 
@@ -116,7 +128,9 @@ To encrypt your folders, you can make use of :
 
 ## Emails aren't secure
 
-[Emails are very old tech](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) - 1982, and they're weak !
+[Emails are very old tech](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) - 1982, and [they're weak](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) !
+
+I know it's used everywhere, but doesn't mean it's secure, don't use that for critical communications..
 
 ## Who else is watching ?
 
