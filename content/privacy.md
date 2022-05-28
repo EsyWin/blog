@@ -12,7 +12,8 @@ date: "2022-05-28"
 5.  Browsers and Fingerprints
 6.  Encrypt your data
 7.  Emails aren't secure
-8.  Who else is watching ?
+8.  Don't reuse credentials
+9.  Who else is watching ?
 
 ## Windows vs Linux
 
@@ -77,7 +78,17 @@ DNS shares same issues than VPN : you must trust them to not log what you're doi
 
 Best solution is to build your own :)
 
-## Browser, Cookies, Fingerprint
+## Search Engine, Browser, Cookies, Fingerprint
+
+### Search Engine
+
+Most Search Engines log everything you type in, [including DuckDuckGo](https://www.bleepingcomputer.com/news/security/duckduckgo-browser-allows-microsoft-trackers-due-to-search-agreement?) which was until recently a decent pick.
+
+Among privacy respectful Search Engines left :
+
+- [Presearch](https://account.presearch.com/signup?rid=3948765) [affiliate link] - pays you crypto for searching, while full-nodes route queries
+- [StartPage](https://www.startpage.com/) - google results with anonimity layer
+- [Qwant](https://www.qwant.com/)
 
 ### Browser
 
@@ -130,7 +141,17 @@ To encrypt your folders, you can make use of :
 
 [Emails are very old tech](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) - 1982, and [they're weak](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) !
 
-I know it's used everywhere, but doesn't mean it's secure, don't use that for critical communications..
+I know it's used everywhere, but doesn't mean it's secure..
+
+[Google sells your email responses to third-parties](https://mashable.com/article/google-reading-your-emails-response) and [have an AI scanning your attachments](https://www.forbes.com/sites/daveywinder/2020/02/28/google-confirms-new-ai-tool-scans-300-billion-gmail-attachments-every-week/), and ProtonMail - supposedly most reliable, secure and private - [got caught reading mails too](https://www.defenddemocracy.press/how-protonmail-lost-the-public-trust-it-needs-to-do-business/).
+
+## Don't reuse credentials
+
+Whenever you log into a website, your username can be used to link you between platforms.
+
+That's also the case for reusing passwords accross websites, websites doesn't store your passwords in plain-text but rather stores a hash of your password which is a cryptographic result that will always be the same if the input is the same, so if your password is the same, hash will be the same too !
+
+To avoid that, I recommend you using [KeepassXC](https://keepassxc.org/) to store and generated random passwords ! (free and open-source)
 
 ## Who else is watching ?
 
