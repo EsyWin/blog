@@ -25,7 +25,7 @@ date: "2022-05-28"
 
 ### Linux
 
-Most privacy and security focused distributions of linux are :
+Most privacy and security focused linux distributions are :
 
 - [Whonix](https://www.whonix.org/) even runs on Windows as a Virtual Machine in two parts : gateway and client.
 - [Tails](https://tails.boum.org/) is literally [Tor Project](https://www.torproject.org/) operating system.
