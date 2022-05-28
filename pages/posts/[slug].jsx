@@ -12,7 +12,7 @@ function PostTemplate({ content, data }) {
         {frontmatter.title}
       </h1>
       <div classNale="divider"></div>
-      <ReactMarkdown className="markdown-content prose dark:prose-invert w-screen lg:max-w-3xl">
+      <ReactMarkdown className="markdown-content prose prose-sm dark:prose-invert w-screen lg:max-w-3xl">
         {content}
       </ReactMarkdown>
     </article>

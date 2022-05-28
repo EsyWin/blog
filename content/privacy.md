@@ -18,7 +18,7 @@ date: "2022-05-28"
 
 ### Windows
 
-> “Finally, we will retain, access, transfer, disclose, and preserve personal data, including your content (such as the content of your emails in Outlook.com, or files in private folders on OneDrive), when we have a good faith belief that doing so is necessary (…)”
+> Finally, we will retain, access, transfer, disclose, and preserve personal data, including your content (such as the content of your emails in Outlook.com, or files in private folders on OneDrive), when we have a good faith belief that doing so is necessary (…)
 
 — [Windows Privacy Policy](https://privacy.microsoft.com/en-us/privacystatement)
 
