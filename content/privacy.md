@@ -54,7 +54,7 @@ If you decide to chose a VPN anyways, make sure to choose one with **strict no u
 
 Now we're covered VPN's let's talk and compare their alternatives : [TOR](https://www.torproject.org) and [I2P](https://geti2p.net/) !
 
-Both are "darknets", and have hidden services that you can visit `.onion` websites on TOR, and `.i2p` on I2P.
+Both have hidden services that you can respectively visit at domain extension `.onion` on TOR, and `.i2p` on I2P.
 
 [I2P documentation has a complete comparaison](https://geti2p.net/fr/comparison/tor) so I'll stay brief.
 
