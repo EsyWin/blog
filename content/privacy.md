@@ -29,7 +29,7 @@ Most privacy and security focused linux distributions are :
 
 - [Whonix](https://www.whonix.org/) even runs on Windows as a Virtual Machine in two parts : gateway and client.
 - [Tails](https://tails.boum.org/) is literally [Tor Project](https://www.torproject.org/) operating system.
-- [QubesOS](https://www.qubes-os.org/) for advanced users only, each part of the system runs in an isolated container !
+- [QubesOS](https://www.qubes-os.org/) for advanced users, each part of the system runs in a container !
 
 ## VPN's are selling your data
 
